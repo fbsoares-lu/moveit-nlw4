@@ -1,8 +1,11 @@
+import ExperienceBar from './components/ExperienceBar';
 import './styles/global.css';
 
 function App() {
   return (
-    <h1>Ola mundo</h1>
+    <div className="container">
+      <ExperienceBar/>
+    </div>
   );
 }
 
